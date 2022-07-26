@@ -30,8 +30,9 @@ public class MainActivity extends AppCompatActivity {
         imageview.setBackgroundResource(img);
 
         flipper.addView(imageview);
-        flipper.setFlipInterval(3000);
+        flipper.setFlipInterval(4000);
         flipper.setAutoStart(true);
+
 
         flipper.setInAnimation(this, android.R.anim.slide_in_left);
         flipper.setOutAnimation(this, android.R.anim.slide_out_right);
